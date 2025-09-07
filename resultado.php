@@ -17,7 +17,7 @@ $acertos = $_SESSION['acertos'];
     <title>Biotech</title>
     <link rel="shortcut icon" type="image-png" href="./assets/letra-b.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="estiloResultado.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>

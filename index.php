@@ -31,11 +31,11 @@ if (isset($_SESSION['quiz_iniciado']) && $_SESSION['quiz_iniciado']) {
     <meta charset="UTF-8" />
     <title>Biotech</title>
     <link rel="shortcut icon" type="image-png" href="./assets/letra-b.png">
-    <link rel="stylesheet" href="estiloPerguntas.css">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
 </head>
-<body>
+<body class="fundoPerguntas">
 '<div class="quiz">
     <div class="quizHeader">
       <i class="fa-solid fa-dna iconeQuiz"></i>

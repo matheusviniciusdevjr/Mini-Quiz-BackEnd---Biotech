@@ -187,3 +187,168 @@ li{
     border-top: 1px solid rgba(255,255,255,0.2);
     padding-top: 15px;
 }
+
+
+/* Estilos Perguntas*/
+
+.fundoPerguntas{
+    background-image: url(./assets/tentativa10.webp);
+    background-size: cover;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #253900;
+    color: #EFEEEA;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 80px auto;
+    
+}
+
+.quizHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.iconeQuiz {
+    font-size: 70px; 
+    margin-bottom: 10px;
+}
+
+#quizForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#pergunta{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+.opcao {
+    margin-bottom: 5px; 
+    margin-top: 5px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.opcao input {
+    margin-right: 5px;
+}
+
+.botaoEnviar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 5px; 
+    padding: 10px 20px;
+    padding: 10px 20px;
+    background-color: #EFEEEA;
+    color: #253900;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;                   
+    font-size: 16px;          
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.botaoEnviar:hover{
+    background-color: #ffc107;
+}
+
+/* Final Estilo Perguntas */
+
+/* Estilo Resultado */
+
+.containerResultado{
+    background-image: url("./assets/funodinicio3.jpg");
+    background-repeat: no-repeat; 
+    height: 80vh;
+    background-size: cover;       
+    background-position: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #EFEEEA;
+ 
+}
+
+
+.divResultado{
+    background-color: #253900;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+
+.botaoResultado {
+    background-color: #EFEEEA; 
+    color: #253900;              
+    border: none;            
+    padding: 10px 20px;        
+    border-radius: 10px;        
+    cursor: pointer;          
+    font-size: 16px;          
+    transition: 0.3s;
+    width: auto;          
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.botaoResultado:hover {
+    background-color: #ffc107; 
+}
+
+
+.iconeResultado{
+    font-size: 50px;
+    margin-bottom: 15px;
+   
+}
